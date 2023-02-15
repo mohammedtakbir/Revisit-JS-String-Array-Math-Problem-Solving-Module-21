@@ -11,8 +11,6 @@
 // reverseCharacters('I am Web Developer');
 
 
-
-
 //* problem-02----> write a function that reverse words from a string
 // function reverseWords(text){
 //     const split = text.split(' ');
@@ -26,7 +24,6 @@
 
 
 
-
 //* problem-03----> fibonacci sequences
 //* 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
 // const fibo = [0, 1];
@@ -34,9 +31,6 @@
 //     fibo[i] = fibo[i - 1] + fibo[i - 2]
 // }
 // console.log(fibo)
-
-
-
 
 
 
@@ -59,7 +53,6 @@ const arr = [148, 102, 214, 147, 123, 285, 265, 270, 147];
 // console.log(res);
 
 
-
 //* problem-05----> write a function that get the second largest number from an array
 // function findSecondLargest(numbers) {
 //     //* using sort---easy way
@@ -80,9 +73,6 @@ const arr = [148, 102, 214, 147, 123, 285, 265, 270, 147];
 // }
 // const { secondLargest } = findSecondLargest(arr);
 // console.log(secondLargest)
-
-
-
 
 
 
@@ -156,18 +146,5 @@ const join = [
 
 // console.log(string.toUpperCase())
 // console.log(string.toLowerCase())
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
