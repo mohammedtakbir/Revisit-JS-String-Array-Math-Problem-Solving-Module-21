@@ -1,5 +1,5 @@
 const arr = [102, 214, 147, 123, 159, 258, 357, 152, 256, 99, 55];
-function lowest(numbers){
+function findLowest(numbers){
     //* using for loop
     // let lowest = numbers[0];
     // for(let i = 0; i < numbers.length; i++){
@@ -22,5 +22,5 @@ function lowest(numbers){
     const lowest = numbers.sort((a, b) => a-b);
     return lowest[0]
 }
-const res = lowest(arr);
+const res = findLowest(arr);
 console.log(res);
